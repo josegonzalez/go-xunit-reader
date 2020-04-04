@@ -1,0 +1,3 @@
+FROM scratch
+COPY ./build/linux/xunit-reader /xunit-reader
+ENTRYPOINT ["/xunit-reader"]
